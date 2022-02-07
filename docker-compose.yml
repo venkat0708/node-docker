@@ -12,6 +12,7 @@ services:
 
   node-app:
     build: .
+    image: venkat0708/node-app
     environment:
       - PORT=3000
     depends_on:
