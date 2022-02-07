@@ -69,7 +69,7 @@ app.use("/api/v1/posts", postRouter);
 app.use("/api/v1/users", userRoter);
 app.get("/", (req, res) => {
     console.log("Yeah it worked");
-    res.send("<h2>Hi There!!!!!</h2>");
+    res.send("<h2>Hi There</h2>");
 })
 
 
