@@ -3,7 +3,7 @@ services:
   nginx:
     image: nginx:stable-alpine
     ports:
-      -"80:80"
+      - "900:80"
 
 
   node-app:
